@@ -1,0 +1,94 @@
+{
+	"child-src": [
+		"*.criteo.com",
+		"*.doubleclick.net",
+		"*.dynad.net",
+		"*.facebook.com",
+		"*.hotjar.com",
+		"*.kissmetrics.com",
+		"*.marketo.com",
+		"*.tailtarget.com",
+		"https://www.google.com",
+		"data:",
+		"'self'"
+	],
+	"connect-src": [
+		"*.hotjar.com",
+		"https:",
+		"wss:",
+		"'self'"
+	],
+	"frame-ancestors": [
+		"'self'"
+	],
+	"default-src": [
+		"'self'"
+	],
+	"media-src": [
+		"data:",
+		"'self'"
+	],
+	"object-src": [
+		"data:",
+		"'self'"
+	],
+	"font-src": [
+		"*.gstatic.com",
+		"*.hotjar.com",
+		"data:",
+		"'self'"
+	],
+	"img-src": [
+		"*.google.com",
+		"*.google-analytics.com",
+		"*.google.com.br",
+		"*.facebook.com",	
+		"*.turn.com",
+		"*.atdmt.com",
+		"*.scorecardresearch.com",
+		"*.ytimg.com",
+		"*.triggit.com",
+		"*.doubleclick.net",
+		"*.googleadservices.com",
+		"*.xg4ken.com",
+		"*.hotjar.com",
+		"*.kissmetrics.com",
+		"*.tailtarget.com",
+		"*.bing.com",
+		"trg.adilligo.com",
+		"takenetomni.blob.core.windows.net",
+		"data:",
+		"'self'"
+	],
+	"script-src": [
+		"*.googleadservices.com",
+		"*.googletagmanager.com",
+		"*.ytimg.com",
+		"*.google-analytics.com",
+		"*.google.com",
+		"*.doubleclick.net",
+		"*.facebook.net",
+		"*.criteo.net",
+		"*.criteo.com",
+		"*.xg4ken.com",
+		"*.dynad.net",
+		"*.marketo.com",
+		"*.hotjar.com",
+		"*.kissmetrics.com",
+		"*.tailtarget.com",
+		"*.bing.com",
+        "https://www.gstatic.com",
+		"about:",
+		"'self'",
+		"'unsafe-inline'",
+		"'unsafe-eval'"
+	],
+	"style-src": [
+		"*.ytimg.com",
+		"*.marketo.com",
+		"https://imguol.com.br",
+		"'self'",
+		"*.google.com",
+		"'unsafe-inline'"
+	]
+}
